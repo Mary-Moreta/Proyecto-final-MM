@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Proyecto Final</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <section id="inicio">
+    <div class="contenido">
+      <header>
+        <h2><span>N</span>R</h2>
+        <nav id="nav" class="">
+          <ul class="link">
+            <li><a href="#inicio" class="seleccionado">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#datos">Datos</a></li>
+            <li><a href="#experiencialaboral">Experiencia Laboral</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+        <div id="icono-nav" onclick="responsiveMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="redes">
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </header>
+    </div>
+  </section>
+  <main>
+    <article>
+      <section class="presentacion">
+        <div class="nombre">
+          <h1><span> Noemi</span> Reyes</h1>
+        </div>
+        <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="foto de Noemi Reyes">
+      </section>
+      <section id="sobre-mi">
+        <h3><span>S</span>obre mi</h3>
+        <div class="contenedor">
+          <p>Soy una persona proactiva, excelente compañera de equipo,organizada y responsable. <br>
+            Disfruto mucho aprender cosas nuevas, mi objetivo es un puesto desafiante y
+            dinámico donde poder compartir mi experiencia
+            y a su vez sumar nuevos conocimientos
+          </p>
+          <img src="imagenes/mujer.jpg" alt="foto de perfil de Noemi">
+        </div>
+      </section>
+      <section id="datos">
+        <div class="contenido-seccion">
+          <h3 class="cambia">Mis <span class="typed"></span></h3>
+          <div class="info">
+            <div class="datos-conocimiento">
+              <h4 class="titulo-datos">Datos Personales</h4>
+              <table>
+                <tr>
+                  <td class="titulo-descripcion">
+                    <h5>Edad</h5>
+                  </td>
+                  <td rowspan="2" class="descripcion">
+                    38 años
+                  </td>
+                </tr>
+                <tr>
+                  <td class="titulo-descripcion">
+                    <h5>F. de Nac.</h5>
+                  </td>
+                  <td rowspan="2" class="descripcion">
+                    3/1/1985
+                  </td>
+                </tr>
+                <tr>
+                  <td class="titulo-descripcion">
+                    <h5>Teléfono</h5>
+                  </td>
+                  <td rowspan="2" class="descripcion">
+                    (406) 280-9248
+                  </td>
+                </tr>
+                <tr>
+                  <td class="titulo-descripcion">
+                    <h5>Email</h5>
+                  </td>
+                  <td rowspan="2" class="descripcion">
+                    vera.reyes@ejemplo.com
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="datos-conocimiento">
+              <h4 class="titulo-datos">Habilidades</h4>
+              <table>
+                <tr>
+                  <td class="titulo-descripcion">
+                    <h5>Inglés</h5>
+                  </td>
+                  <td rowspan="2" class="descripcion">
+                    Oral y Escrito Avanzado
+                  </td>
+                </tr>
+                <tr>
+                  <td class="titulo-descripcion">
+                    <h5>Francés</h5>
+                  </td>
+                  <td rowspan="2" class="descripcion">
+                    Oral Avanzado
+                  </td>
+                </tr>
+                <tr>
+                  <td class="titulo-descripcion">
+                    <h5>Office</h5>
+                  </td>
+                  <td rowspan="2" class="descripcion">
+                    Nivel Avanzado.
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="curriculum">
+        <a href="Curriculum/Curriculum Noemi Reyes.pdf">
+          <button>Descargar CV</button>
+        </a>
+      </section>
+      <section id="experiencialaboral">
+        <h3 class="titulo-experiencia"><span>E</span>xperiencia laboral</h3>
+        <div class="fila">
+          <div class="trabajo">
+            <h4>
+              Responsable de Administración <br>
+              Empresa Lin <br>
+              Enero 2016 - Dic. 2022
+            </h4>
+            <hr>
+            <ul>
+              <li>Recepción de Clientes. <br>
+                Manejo de Conmutador.</li>
+              <li>Asistencia a mesa de entradas. <br>
+                Organización de libro de entrada y salida. <br>
+                Mantenimiento de archivo.</li>
+            </ul>
+          </div>
+          <div class="trabajo">
+            <h4>
+              Asistente Administrativo <br>
+              Empresa IBM <br>
+              Enero 2020 - Enero 2023
+            </h4>
+            <hr>
+            <ul>
+              <li>Recepción de Clientes. <br>
+                Manejo de Conmutado.</li>
+              <li>Asistencia a mesa de entradas. <br>
+                Organización de libro de entrada y salida. <br>
+                Mantenimiento de archivo.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </article>
+    <section id="contacto">
+      <h3><span>C</span>ontacto</h3>
+      <div class="contenedor-contacto">
+        <div class="formulario">
+          <h4 id="texto"> Enviar un mensaje</h4>
+          <form id="form" class="form">
+            <div class="formulario__grupo" id="grupo__nombre">
+              <p> <label for="Nombre" class="formulario__label"></label></p>
+              <div class="formulario__grupo-input">
+                <input type="text" name="Nombre" placeholder="Nombre" id="Nombre">
+                <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+              </div>
+              <p class="formulario__input-error">Aqui va un nombre</p>
+            </div>
+            <div class="formulario__grupo" id="grupo__email">
+              <p> <label for="Email" class="formulario__label"></label></p>
+              <div class="formulario__grupo-input">
+                <input type="email" name="Email" placeholder="Email" id="Email">
+                <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+              </div>
+              <p class="formulario__input-error">Aqui va un email</p>
+            </div>
+            <div class="formulario__grupo" id="grupo__telefono">
+              <p> <label for="telefono" class="formulario__label"></label></p>
+              <div class="formulario__grupo-input">
+                <input type="tel" name="Telefono" placeholder="Telefono" id="telefono">
+                <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+              </div>
+              <p class="formulario__input-error">Aqui va un telefono</p>
+            </div>
+            <textarea placeholder="Escribe tu mensaje aqui"></textarea>
+            <div class="formulario__mensaje" id="formulario__mensaje">
+              <p><i class="fa-solid fa-triangle-exclamation"></i><b>Error</b> Por favor rellena el formulario
+                correctamente.</p>
+            </div>
+            <div class="formulario__grupo  formulario__grupo-btn-enviar">
+              <button type="submit" class="formulario__btn" id="submit">Enviar</button>
+              <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Mensaje enviado exitosamente!</p>
+            </div>
+          </form>
+        </div>
+        <div class="mapa">
+          <p>Mi dirección es 685 Stevens Creek Blvd</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.8233677735648!2d-121.9633930853425!3d37.323011445795935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcaef29cc410d%3A0x24fb2435977328d8!2sStevens%20Creek%20Blvd%2C%20San%20Jose%2C%20CA%2095117%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1676846870302!5m2!1ses-419!2sar"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Todos los derechos reservados - 2022</p>
+    <div class="redes">
+      <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

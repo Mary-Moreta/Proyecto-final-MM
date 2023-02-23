@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2? family= Fredoka+One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    background-color: #000;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+                           /*section inicio*/
+
+#inicio {
+    background: url("imagenes/entrepreneur-3597096.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+/*contenido*/
+
+.contenido {
+    background-color: rgba(0, 0, 0, 0.78);
+    width: 100%; 
+    top: 0;
+    z-index: 100;
+    position: fixed;
+}
+
+.contenido header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.contenido h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.contenido h2 span {
+    color: #e600ac;
+}
+
+/*link*/
+.link {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+   padding: 10px 20px;
+}
+
+.link a:hover{
+    background-color:#e600ac ;
+    color: black;
+    transition: ease-in .5s;
+}
+
+#icono-nav {
+    color: white;
+    display: none;
+}
+
+
+/*redes*/
+
+.redes a {
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+.redes a:hover{
+ color:#e600ac;
+}
+
+                         /*section presentacion*/
+
+.presentacion {
+    margin: auto;
+    height: 100 vh;
+    max-width: 1100px;
+    columns: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+ 
+.presentacion .nombre {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: -500px;
+    margin-bottom: 40px;
+    animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+0% {
+    transform: translate(-30%,0);
+}
+50% {
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+}
+100% {
+    transform: translate(30%,0);
+}
+}
+
+.presentacion .nombre span {
+    color:#e600ac;
+}
+
+.presentacion img {
+    border: 7px solid #e600ac ;
+}
+
+                                     /*section sobre-mi*/
+#sobre-mi {
+    padding: 70px 10px 70px 10px; 
+}
+
+#sobre-mi h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#sobre-mi span {
+color: #e600ac;
+}
+
+/*contenedor*/
+.contenedor {
+  max-width: 1100px;
+  min-width: 250px;
+  margin: auto;
+  display: flex;
+}
+
+.contenedor img {
+    width: 60vw;
+    height: 60vh;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.contenedor p {
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+                                      /*section datos*/
+#datos {
+   padding: 80px 0 80px 0;
+   text-align: center;
+}
+
+/*contenido-seccion*/
+.contenido-seccion { 
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contenido-seccion,
+.cambia {
+    font-size: 3rem;  
+}
+
+.contenido-seccion span {
+    color: #e600ac;
+}
+
+/*info*/
+.info {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/*datos-conocimiento*/
+.datos-conocimiento {
+    width: 45%;
+}
+
+
+/*titulo-datos*/
+.titulo-datos {
+  font-size: 2rem;
+  display: inline-block;
+  font-weight: bold;
+  border: 2px solid #e600ac;
+  padding: 10px;
+}
+
+
+/*titulo-descripcion*/
+.titulo-descripcion {
+    width: 40%;
+}
+
+.titulo-descripcion h5 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #fff;
+}
+  
+/*descripcion*/
+.descripcion {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    border-left: 1px solid #fff;
+    padding-left: 20px;
+}
+
+                                       /* section curriculum*/
+
+.curriculum {
+    text-align: center;
+}
+.curriculum button {
+    margin-top: 50px;
+    background-color: #e600ac;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.curriculum button:hover {
+    background-color: white ;
+    color: #e600ac;
+    transition: ease-in .5s;
+}
+
+
+
+                                   /*section experiencialaboral*/
+
+
+ #experiencialaboral {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 100px 15px;
+}
+
+/*.titulo-experiencia*/
+
+.titulo-experiencia {
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+.titulo-experiencia span {
+    color: #e600ac;
+}
+
+/*fila*/
+.fila {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+
+/*trabajo*/
+.trabajo {
+max-width: 350px;
+background-color: #e600ac;
+padding: 30px;
+margin: 0 5px;
+border-right: 5px;
+transition: .5s;
+}
+
+.trabajo:hover{
+    box-shadow: 5px 5px 10px #fff, -5px -5px 10px #fff;
+}
+
+.trabajo ul {
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+  
+                                /*section contacto*/
+#contacto {
+    margin-top: 50px;
+    padding: 0 1.5em;
+}    
+#contacto h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#contacto span {
+    color: #e600ac;
+}
+
+/*contenedor-contacto*/
+.contenedor-contacto {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    font-family:  'Quicksand', sans-serif;
+    background-color: white;
+    color: #000;
+    box-shadow: 0 0 40px 0 rgba(255, 0, 166, 0.57);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.contenedor-contacto > * {
+    padding: 1em;
+}
+
+/*formulario*/
+.formulario  {
+margin: 0;
+padding: 1em;
+}
+.formulario button,
+.formulario input,
+.formulario textarea {
+    width: 90%;
+    padding: 2em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #e600ac;
+}
+
+.formulario h4{
+    text-align: center;
+}
+
+.formulario button {
+    background-color: #e600ac;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    margin-top: 30px;
+    color: white;
+}
+
+.formulario button:hover {
+   background-color: #000;
+   color: #e600ac;
+}
+
+.formulario__grupo-input {
+    position: relative;
+}
+
+.formulario__input-error {
+    font-size: .9rem;
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario__input-error-activo {
+   display: block;
+}
+
+.formulario__validacion-estado{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.formulario__mensaje {
+    text-align: center;
+    display: none;
+}
+
+.formulario__mensaje-activo {
+    display: block;
+}
+
+.formulario__grupo-btn-enviar {
+  text-align: center;
+}
+
+.formulario__mensaje-exito {
+    display: none;
+}
+
+.formulario__mensaje-exito-activo {
+    display: block;
+}
+
+/*Estilos de validacion*/
+.formulario__grupo-correcto .formulario__validacion-estado {
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color: #bb2929;
+    opacity: 1;
+}
+
+/*mapa*/
+.mapa {
+    width: auto;
+    background-color: #000;
+}
+
+.mapa p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+                                    /*footer*/
+footer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    font-family:  'Quicksand', sans-serif;  
+}
+
+                               /*responsive*/
+@media screen and (max-width: 800px) {
+#inicio {
+    padding: 0;
+}
+.redes {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+nav.responsive {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.78);
+    width: 100%;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    padding: 10px 0;
+}
+
+nav.responsive ul {
+    display: block !important;
+    text-align: right;
+}
+
+nav.responsive ul li{
+    margin: 5px 0;
+}   
+
+#icono-nav {
+    display: block;
+}
+
+.link a {
+    padding: 4px 9px;
+}
+
+.presentacion .nombre {
+    font-size: 3.5rem;
+}
+
+#sobre-mi h3{
+    font-size: 2.5rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedor {
+    display: block;
+    text-align: center;
+}
+
+.contenedor p {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.contenedor img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #e600ac;
+    padding: 10px;
+    
+}
+
+#datos {
+  padding: 20px 0 20px 0;
+
+}
+
+.contenido-seccion h3 {
+    font-size: 2rem;
+}
+
+.info {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.datos-conocimiento {
+    width: 100%;
+    padding: 20px;
+}
+
+.titulo-datos {
+    font-size: 1.5rem;
+  }
+
+#experiencialaboral {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.titulo-experiencia {
+    font-size: 2rem;
+}
+
+.trabajo h4 {
+    font-size: 1.6rem;
+}
+
+.fila {
+    font-size: 1rem;
+}
+
+#contacto {
+    margin-top: 10px;
+}
+
+.contenedor-contacto {
+    display: block;
+}
+
+.formulario button {
+  width: 100%;
+}
+
+footer .redes{
+display: flow-root;
+}
+
+}
+
